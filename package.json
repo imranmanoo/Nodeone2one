@@ -1,17 +1,20 @@
 {
-  "name": "kurento-one2one-call",
-  "version": "6.16.1-dev",
-  "private": true,
+  "name": "nodeone2one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "postinstall": "cd static && bower install"
+    "start": "node index.js"
   },
-  "dependencies": {
-    "express": "^4.17.0",
-    "minimist": "^1.1.1",
-    "ws": "^7.1.0",
-    "kurento-client": "git+https://github.com/Kurento/kurento-client-js.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranmanoo/Nodeone2one.git"
   },
-  "devDependencies": {
-    "bower": "^1.4.1"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imranmanoo/Nodeone2one/issues"
+  },
+  "homepage": "https://github.com/imranmanoo/Nodeone2one#readme"
 }
